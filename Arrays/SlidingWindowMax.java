@@ -20,7 +20,7 @@ class Solution {
         ans[j++] = h1.peek().value;
         for(int i = k; i < n; i++) {
             temp.add(new Point(i,nums[i]));
-            while(!h1.isEmpty() && h1.peek().index <= i - k) h1.poll();
+            while(!h1.isEmpty() && h1.peek().index <= i - k) h1.poll();     //IMP STEP To remove stale Entries
             if(h1.isEmpty() || h1.peek().value < temp.peek().value) {
                 h1 = temp;
                 temp = new PriorityQueue<>();
@@ -48,8 +48,8 @@ class Point implements Comparable<Point> {
 }
 
 /*
-GAME OF TWO HEAPS
+GAME OF TWO HEAPS!
 => Maintain two heaps h1 and temp. h1 stores the max value always.
 => Max can change in two conditions: 1. If h1.peek() < temp.peek() 2. If h1.peek().index <= i - k (out of window);
-=> To Think: Can we keep Index Independent and save making Point class! 
+=> To Think: Can we keep Index Independent and save making Point class!
 */
