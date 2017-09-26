@@ -97,6 +97,6 @@ class Solution {
 }
 
 /*
-=> This is actually Text justification Problem (L to R align) from CLRS, where the goal is to even out the spaces throughout the text.
+=> This is actually Text justification Problem (with L to R align) from CLRS book, where the goal is to even out the spaces throughout the text.
 => The leetcode question on Text Justification wants us to greedy put words in a line, and just even out spaces for each line.
 */
