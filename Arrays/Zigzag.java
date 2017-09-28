@@ -55,5 +55,5 @@ P   A   H   N
 A P L S I I G
 Y   I   R
 "PAHNAPLSIIGYIR"
-=> Maintain straight, up boolean pointers
+=> Maintain straight, up boolean pointers, List of Characters
 */
