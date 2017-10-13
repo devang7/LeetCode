@@ -20,5 +20,6 @@ class Solution {
 
 
 /*
-=> Greedy algorithm. You want the distance to be as far as possible and height to be as max as possible. 
+=> Greedy algorithm.
+You want the distance to be as far as possible and height to be as max as possible. 
 */
