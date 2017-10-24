@@ -1,7 +1,7 @@
 import java.util.*;
 public class LongestUniqueSubstring {
   public static void main(String args[]) {
-    String s = "abcdbas";
+    String s = "abcad";
     System.out.println(new Solution().lengthOfLongestSubstring(s));
   }
 }
